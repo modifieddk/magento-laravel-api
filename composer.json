@@ -1,11 +1,12 @@
 {
-    "name": "grayloon/laravel-magento-api",
+    "name": "modifieddk/laravel-magento-api",
     "description": "Magento 2 REST API Wrapper to export Magento data to use in your Laravel application.",
     "keywords": [
         "grayloon",
+        "modified.dk",
         "laravel-magento-api"
     ],
-    "homepage": "https://github.com/grayloon/laravel-magento-api",
+    "homepage": "https://github.com/modifieddk/magento-laravel-api",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,14 +17,14 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.1",
         "guzzlehttp/guzzle": "^6.0|^7.0",
-        "illuminate/support": "^7.0|^8.0|^9.0"
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16|^3.0",
         "orchestra/testbench": "^5.0|^6.0|^7.0",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
